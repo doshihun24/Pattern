@@ -8,9 +8,6 @@ public class RookieTeacher extends Teacher {
 	    public void visit(Home studentHome){
 	        System.out.println("こんにちは");
 	    }
-	    public void visit(TanakaHome studentHome){
-	        studentHome.praisedChild();
-	    }
 	    public void visit(SuzukiHome studentHome){
 	        studentHome.reprovedChild();
 	    }
